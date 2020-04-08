@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updateinfo">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_nameET"
+        android:layout_margin="5dp"
+        android:hint="Name"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressET"
+        android:layout_below="@id/user_nameET"
+        android:layout_margin="5dp"
+        android:hint="Address"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cnicET"
+        android:layout_below="@id/addressET"
+        android:layout_margin="5dp"
+        android:hint="CNIC"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneET"
+        android:layout_below="@id/cnicET"
+        android:layout_margin="5dp"
+        android:hint="Phone Number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatebtn"
+        android:layout_margin="10dp"
+        android:layout_below="@id/phoneET"
+        android:text="Update Information"
+        />
+</RelativeLayout>
